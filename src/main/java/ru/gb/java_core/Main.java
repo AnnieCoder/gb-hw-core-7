@@ -2,7 +2,7 @@ package ru.gb.java_core;
 
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Cat[] cat = {new Cat("Barsik", 100),
             new Cat("Molly", 30),
@@ -17,7 +17,7 @@ public class Main {
             System.out.println(cat[i].toString());
         }
 
-        System.out.println(bowl.getFoodAmount());
+        System.out.printf("Food amount = %d", bowl.getFoodAmount());
 
     }
 }
